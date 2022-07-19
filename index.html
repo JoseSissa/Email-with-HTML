@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
     <title></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +20,7 @@
     </noscript>
     <![endif]-->
     <style>
-        style attribute {
+        element.style {
             color: #073054 !important;
         }
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Roboto:wght@300;700&display=swap');
@@ -61,11 +63,22 @@
         }
         @media (prefers-color-scheme: dark) {
             /* #module-2 td { background: #efefef !important; } */
-            #module-2 p { color: #073054 !important; }
-            #module-2_1 td { background: #FFF !important; }
+            [data-ogsc] body #module-2 p { color: #c7e1ff !important; }
+            [data-ogsc] body #module-2_1 td { background: #FFF !important; }
         }
     </style>
+    <!--[if gte mso 16]>
+        <style>
+            .keep-white {
+                mso-style-textfill-type:gradient;
+                mso-style-textfill-fill-gradientfill-stoplist:"0 \#073054 0 100000\,100000 \#073054 0 100000";
+                mso-style-textfill-fill-color:#073054;
+                color: #073054 !important;
+            }
+        </style>
+    <![endif]-->
 </head>
+<!-- #c7e1ff -->
 <body style="margin:0;padding:0;box-sizing: border-box; color: #073054 !important; font-size: 16px;">
     <table role="presentation" style="width:602px;border-collapse:collapse;border-spacing:0;text-align:left;" align="center">
         <tr>            
@@ -89,10 +102,10 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="bg-img" style="position: absolute;bottom:-25px;width: 100%;padding:0 0 150px 0;border-radius:12px;" align="center">
-                            <p style="font-size: 22px;">Check out our <br>Lab Grown Diamond range at the</p>
-                            <p style="font-family: 'Playfair Display', serif;font-size: 22px;font-weight: 700;">International Jewellery Fair</p>
-                            <p><span>27-29 Aug 2022</span> <br><span>ICC SYDNEY Darling Harbour</span> <br><span>Grown Diamonds Booth E10</span></p>
+                        <td class="bg-img" style="position: absolute;bottom:-25px;width: 100%;padding:0 0 150px 0;border-radius:12px;color: #073054 !important;" align="center">
+                            <p class="keep-color" style="font-size: 22px; color: #073054 !important;">Check out our <br>Lab Grown Diamond range at the</p>
+                            <p class="keep-color" style="font-family: 'Playfair Display', serif;font-size: 22px;font-weight: 700; color: #073054 !important;">International Jewellery Fair</p>
+                            <p class="keep-color"><span>27-29 Aug 2022</span> <br><span>ICC SYDNEY Darling Harbour</span> <br><span>Grown Diamonds Booth E10</span></p>
                         </td>
                     </tr>
                 </table>
