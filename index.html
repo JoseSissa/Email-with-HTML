@@ -30,10 +30,12 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            background-color: #000000;
         }
         .desktop { display: block; }
         .mobile { display: none; }
-        #module-2_1 td { background: #FFF !important; }
+        #module-2_1 td { background-color: #fff !important; }
+        #module-2_2 td { background-color: #fff !important; }
         #module_3 p { color: #ffffff; }
         span { font-family: 'Roboto', sans-serif; font-weight: 700; }
         a {
@@ -59,6 +61,7 @@
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
+                background-color: #000000;
             }
             .desktop { display: none; }
             .mobile { display: block; }
@@ -66,25 +69,16 @@
         @media (prefers-color-scheme: dark) {
             [data-ogsc] #module-2 { color: #fff !important; }
             [data-ogsc] #module_3 { color: #ffffff !important; }
-            [data-ogsc] #module-2_1 td { background: #FFF !important; }
+            [data-ogsc] #module-2_1 td { background: #fff !important; background-color: #fff !important; color: #fff !important;}
+            [data-ogsc] #module-2_2 td { background: #fff !important; color: #fff !important; }
         }
     </style>
     <!--[if gte mso 16]>
         <style type="text/css">
-            [data-ogsc] #module-2 { color: #fff !important; }
-            [data-ogsc] #module_3 { color: #ffffff !important; }
-            [data-ogsc] #module-2_1 td { background: #FFF !important; }
-            [data-ogsc] .bg-img {
-                background: transparent !important;
-            }
-            [data-ogsc] .keep-white {
-                mso-style-textfill-type:gradient !important;
-                mso-style-textfill-fill-gradientfill-stoplist:"0 \#073054 0 100000\,100000 \#073054 0 100000" !important;
-                mso-style-textfill-fill-color:#073054 !important;
-                color: #073054 !important;
-            }
-            [data-ogsc] body {
-                color: #000000 !important;
+            .paragraph {
+                mso-style-textfill-type:gradient;
+                mso-style-textfill-fill-gradientfill-stoplist:"0 \#fff 0 100000\,100000 \#fff 0 100000";
+                color:#fff !important;
             }
         </style>
     <![endif]-->
@@ -112,11 +106,11 @@
                     <tr>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr id="module-2_2">
                         <td class="bg-img" style="position: absolute;bottom:-25px;width: 100%;padding:0 0 150px 0;border-radius:12px;color: #073054 !important;" align="center">
-                            <p class="keep-color" style="font-size: 22px; color: #073054 !important;">Check out our <br>Lab Grown Diamond range at the</p>
-                            <p class="keep-color" style="font-family: 'Playfair Display', serif;font-size: 22px;font-weight: 700; color: #073054 !important;">International Jewellery Fair</p>
-                            <p class="keep-color"><span>27-29 Aug 2022</span> <br><span>ICC SYDNEY Darling Harbour</span> <br><span>Grown Diamonds Booth E10</span></p>
+                            <p class="paragraph" style="font-size: 22px;">Check out our <br>Lab Grown Diamond range at the</p>
+                            <p class="paragraph" style="font-family: 'Playfair Display', serif;font-size: 22px;font-weight: 700;">International Jewellery Fair</p>
+                            <p class="paragraph"><span>27-29 Aug 2022</span> <br><span>ICC SYDNEY Darling Harbour</span> <br><span>Grown Diamonds Booth E10</span></p>
                         </td>
                     </tr>
                 </table>
