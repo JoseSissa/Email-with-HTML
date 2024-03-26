@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
+        @font-face {
+            font-family: 'mreaves-regular';
+            src: url("./assets/fonts/MrEavesXLModOT-Reg.eot") format("embedded-opentype"),
+            url("./assets/fonts/MrEavesXLModOT-Reg.woff") format("woff"),
+            url("./assets/fonts/MrEavesXLModOT-Reg.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'mreaves-bold';
+            src:  url("./assets/fonts/MrEavesXLModOT-Bold.eot") format("embedded-opentype"),
+            url("./assets/fonts/MrEavesXLModOT-Bold.woff") format("woff"),
+            url("./assets/fonts/MrEavesXLModOT-Bold.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+			font-family: "mreaves-light";
+			src: url("./assets/fonts/MrEavesXLModOT-Light.ttf") format("truetype");
+		}
+		@font-face {
+			font-family: 'mreaves-book';
+			src: url("./assets/fonts/MrEavesXLModOT-Book.eot") format("embedded-opentype"),
+            url("./assets/fonts/MrEavesXLModOT-Book.woff") format("woff"),
+            url("./assets/fonts/MrEavesXLModOT-Book.ttf") format("truetype");
+			font-weight: normal;
+			font-style: normal;
+		}
+        
         *{
             padding: 0;
             margin: 0;
             box-sizing: border-box;
             font-family: sans-serif;
+            font-family: 'mreaves-light';
+            font-family: 'mreaves-book';
+            font-family: 'mreaves-regular';
+            font-family: 'mreaves-bold';
             height: 0;
             color: #808080;
         }
@@ -20,7 +53,7 @@
                 </tr>
                 <tr>
                     <td align="center">
-                        <span style="color:#c0b2a9;font-size: 24px;">Hi Ana</span>
+                        <span style="color:#c0b2a9;font-family: 'mreaves-regular';font-size: 24px;">Hi Ana</span>
                     </td>
                 </tr>
                 <tr>
@@ -30,22 +63,22 @@
                 </tr>
                 <tr>
                     <td align="center" style="padding-bottom: 8px;">
-                        <span style="color: #000;">Message from Will:</span>
+                        <span style="font-family: 'mreaves-bold';color: #000;">Message from Will:</span>
                     </td>
                 </tr>
                 <tr>
                     <td align="center" style="padding-bottom: 12px;">
-                        <span>I hope you find something you like!</span>
+                        <span style="font-family: 'mreaves-regular'">I hope you find something you like!</span>
                     </td>
                 </tr>
                 <tr>
                     <td align="center" style="height: 40px;padding-bottom: 10px;">
-                        <span style="padding: 4px;border: 1px solid #c0b2a9;color:#888888;">A1B2 3C4D 5E6F 7G8H</span>
+                        <span style="padding: 4px;border: 1px solid #c0b2a9;color:#888888;font-family: 'mreaves-regular'">A1B2 3C4D 5E6F 7G8H</span>
                     </td>
                 </tr>
                 <tr>
                     <td align="center" style="padding-bottom: 10px;">
-                        <span style="color: #000;font-size: 20px;">Amount:</span>
+                        <span style="font-family: 'mreaves-regular';font-size: 20px;color: #000;">Amount:</span>
                     </td>
                 </tr>
                 <tr>
@@ -55,7 +88,7 @@
                 </tr>
                 <tr>
                     <td align="center" style="padding-bottom: 12px;">
-                        <span style="font-size: 20px;">Buy anything you want!</span>
+                        <span style="font-family: 'mreaves-regular';font-size: 20px;">Buy anything you want!</span>
                     </td>
                 </tr>
                 <tr>
@@ -67,7 +100,7 @@
                 </tr>
                 <tr>
                     <td align="center" style="padding-bottom: 16px;">
-                        <span style="font-size: 12px;">Expires: 05/03/2026</span>
+                        <span style="font-family: 'mreaves-regular';font-size: 12px;">Expires: 05/03/2026</span>
                     </td>
                 </tr>
                 <tr>
